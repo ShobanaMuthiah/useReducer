@@ -5,10 +5,10 @@ const App = () => {
   const [state,dispatch]=useReducer(handlechange,0)
   return (
     <div>
-        {state}
+        
         <div>
-          <button onClick={()=>{dispatch({type:"ADD"})}}>ADD</button>
-          <button onClick={()=>{dispatch({type:"SUB"})}}>SUB</button>
+          <button onClick={()=>{dispatch({type:"ADD"})}}>+</button>{state}
+          <button onClick={()=>{dispatch({type:"SUB"})}}>-</button>
         </div>
     </div>
   );
