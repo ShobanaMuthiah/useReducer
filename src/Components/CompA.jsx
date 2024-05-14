@@ -10,7 +10,7 @@ export default function handlechange(state,action){
                     return state-1;
 
                 }
-                else{
+                else
                     return state=0;
                 }
             }
