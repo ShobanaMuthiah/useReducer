@@ -6,7 +6,8 @@ export default function handlechange(state,action){
             }
            case "SUB":
             {
-                if(state>0){
+                if(state>0)
+                    {
                     return state-1;
 
                 }
@@ -15,8 +16,5 @@ export default function handlechange(state,action){
                 }
             }
     
-        default:
-            break;
     }
 
-}
