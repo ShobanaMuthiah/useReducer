@@ -8,7 +8,8 @@ const App = () => {
         
         <div>
         <button onClick={()=>{dispatch({type:"SUB"})}}>-</button>
-        {state}
+        
+        <p className='scr'>{state}</p>
           <button onClick={()=>{dispatch({type:"ADD"})}}>+</button>
         </div>
     </div>
